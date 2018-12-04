@@ -46,6 +46,7 @@ bookRouter.route('/:id')
       ],
       title: 'Library',
       book: books[id]
+    });
   });
 
 module.exports = bookRouter;
